@@ -14,7 +14,6 @@ def add_time(start, duration, day=''):
     meridien = first[2].lower()
     # other variables
     daycount = 0
-    days = ''
     day = day.lower()
     # minutes to hours
     if minutes >= 60:
